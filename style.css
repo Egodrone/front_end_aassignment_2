@@ -1,0 +1,73 @@
+body {
+    background-color: #bbced4;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+/*
+li, #site-name {
+    display: inline;
+}
+
+ */
+/*
+li {
+    display: inline;
+}
+*/
+
+
+
+/*
+    Main container
+ */
+.main-container {
+    width: 1024px;
+    background-color: #ced4e7;
+    margin: auto;
+}
+
+form {
+    padding-right: 30%;
+}
+
+
+
+/*
+    Buttons
+ */
+.button {
+    background-color: #557aea;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.resetBtn {
+    border-radius: 12px;
+}
+
+.submitBtn {
+    border-radius: 12px;
+}
+
+
+
+/*
+    Footer
+ */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #75667c;
+    padding: 50px 50px;
+    color: #ffffff;
+    text-align: center;
+}
