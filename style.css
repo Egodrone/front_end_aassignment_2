@@ -1,5 +1,11 @@
+:root {
+    --bodyColor: #bbced4;
+    --footerColor: #75667c;
+}
+
+
 body {
-    background-color: #bbced4;
+    background-color: var(--bodyColor);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -23,9 +29,41 @@ li {
     display: inline;
 }
 */
+
 nav li {
     padding: 20px;
     display: inline-block;
+}
+
+.li-header {
+    background-color: #81947e;
+}
+
+#ol-nav {
+    background-color: #75667c;
+}
+
+.li-nav {
+    background-color: #81947e;
+
+    margin-left: 100px;
+
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    */
+}
+
+.ul-nav {
+    background-color: #62945a;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.li-nav-index {
+    background-color: #62945a;
 }
 
 /*
@@ -74,7 +112,7 @@ form {
 input[type=text], input[type=password] {
     width: 250px;
     padding: 12px 20px;
-    margin: 10px 0px;
+    margin: 10px 0;
     box-sizing: border-box;
 }
 
@@ -87,7 +125,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background: #75667c;
+    background: var(--footerColor);
     padding: 50px 50px;
     color: #ffffff;
     text-align: center;
