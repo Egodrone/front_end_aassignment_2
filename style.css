@@ -1,21 +1,32 @@
 body {
     background-color: #bbced4;
-    font-family:  Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*
 li, #site-name {
     display: inline;
 }
-
+ p::first-letter { text-transform: uppercase;
  */
 /*
 li {
     display: inline;
 }
 */
+/*
+.title li {
+    display: inline;
+}
 
-
+#logo-id {
+    display: inline;
+}
+*/
+nav li {
+    padding: 20px;
+    display: inline-block;
+}
 
 /*
     Main container
@@ -31,15 +42,19 @@ form {
 }
 
 
-
 /*
-    Buttons
+    Buttons and input form
  */
+#user-login-txt {
+    margin-left: 25px;
+}
+
+
 .button {
     background-color: #557aea;
     border: none;
     color: white;
-    padding: 20px;
+    padding: 12px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -56,6 +71,12 @@ form {
     border-radius: 12px;
 }
 
+input[type=text], input[type=password] {
+    width: 250px;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
 
 
 /*
