@@ -64,6 +64,8 @@ nav a {
 
 .li-nav-index {
     background-color: #62945a;
+    float: right;
+    height: 70px;
 }
 
 /*
