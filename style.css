@@ -1,8 +1,7 @@
 :root {
     --bodyColor: #bbced4;
-    --footerColor: #75667c;
+    --footerColor: #343a40;
 }
-
 
 body {
     background-color: var(--bodyColor);
@@ -18,7 +17,6 @@ html, body, footer {
 li, #site-name {
     display: inline;
 }
- p::first-letter { text-transform: uppercase;
  */
 /*
 li {
@@ -41,22 +39,23 @@ nav li {
 }
 
 .li-header {
-    background-color: #81947e;
+    background-color: #6c757d;
+    color: antiquewhite;
 }
 
 #ol-nav {
-    background-color: #75667c;
+    background-color: #343a40;
 }
 
 .li-nav {
-    background-color: #81947e;
+    background-color: #6c757d;
+    vertical-align: top;
+    height: 70px;
 
-    margin-left: 100px;
+}
 
-    /*
-    margin-left: auto;
-    margin-right: auto;
-    */
+.li-nav1 {
+    margin-left: 200px;
 }
 
 .ul-nav {
@@ -68,7 +67,7 @@ nav a {
 }
 
 .li-nav-index {
-    background-color: #62945a;
+    background-color: #6c757d;
     float: right;
     height: 70px;
 }
@@ -80,10 +79,14 @@ nav a {
     width: 1024px;
     background-color: #ced4e7;
     margin: auto;
+    border-radius: 20px;
 }
 
 form {
     padding-right: 30%;
+    /*
+    display: inline-block;
+    */
 }
 
 
@@ -124,6 +127,10 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
+.input-form {
+    border-radius: 12px;
+}
+
 
 /*
     Footer
@@ -138,4 +145,8 @@ footer {
     height: 50px;
     color: #ffffff;
     text-align: center;
+}
+
+#footer-info {
+    margin-top: 15px;
 }
