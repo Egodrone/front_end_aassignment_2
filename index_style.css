@@ -11,7 +11,7 @@
     width: 680px;
     border-radius: 10px;
     display: inline-block;
-
+    margin-top: 50px;
     vertical-align: top;
 }
 
@@ -38,6 +38,7 @@ aside {
     position: relative;
     width: 290px;
     height: 410px;
+    margin-top: 50px;
 }
 
 h1 {
